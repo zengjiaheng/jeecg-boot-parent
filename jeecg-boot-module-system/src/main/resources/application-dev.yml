@@ -97,7 +97,7 @@ spring:
         master:
           url: jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false
           username: root
-          password: root
+          password: 123456
           driver-class-name: com.mysql.jdbc.Driver
           # 多数据源配置
           #multi-datasource1:
@@ -129,9 +129,9 @@ mybatis-plus:
       id-type: 4
       # 默认数据库表下划线命名
       table-underline: true
-  #configuration:
+  configuration:
     # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
-    #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 #jeecg专用配置
 jeecg :
   path :
